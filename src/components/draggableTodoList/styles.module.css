@@ -1,0 +1,8 @@
+.todoListContainer {
+    width: 50%;
+    margin: auto;
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}

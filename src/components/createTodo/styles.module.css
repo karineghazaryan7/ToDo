@@ -1,0 +1,22 @@
+.createTodoContainer {
+  display: flex;
+  flex-direction: column;
+  width: 22%;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.todoTitle {
+  height: 32px;
+  border-radius: var(--border-radius);
+  border: 1px solid #c4c4c4;
+  padding: 4px 8px;
+}
+
+.todoDescription {
+  height: 3rem;
+  padding: 4px 8px;
+  border-radius: var(--border-radius);
+  border: 1px solid #c4c4c4;
+  margin-top: 8px;
+}

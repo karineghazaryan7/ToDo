@@ -1,0 +1,20 @@
+.todoItemContainer {
+  display: flex;
+  margin: 0.2rem
+}
+.todoItemTitle {
+  border: #babdc4  solid 0.5px;
+  height: 2rem;
+  width: 25%;
+  margin-right: 4px;
+}
+.todoItemDescription {
+  border: #babdc4 solid 0.5px;
+  height: 2rem;
+  width: 71%;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.todoDone {
+  margin-right: 4px;
+}

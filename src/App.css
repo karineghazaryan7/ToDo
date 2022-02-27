@@ -1,0 +1,88 @@
+:root {
+  --primary-color: #8396c8;
+  --secondary-color: #6782c5;
+  --main-color: #434343;
+  --border-radius: 6px;
+  --main-font-size: 16px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: var(--main-font-size);
+  -webkit-font-smoothing: antialiased;
+  color: var(--main-color);
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.todo-add-button {
+  margin: 0.5rem 8rem;
+  height: 32px;
+  border-radius: var(--border-radius);
+  border: none;
+  color: #fff;
+  background-color: var(--primary-color);
+}
+
+.todo-add-button:hover {
+  background-color: var(--secondary-color);
+}
+
+.button {
+  border: none;
+  border-radius: var(--border-radius);
+  margin-left: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  padding: 6px;
+  color: #fff;
+  background-color: var(--primary-color);
+}
+
+.button:hover, .button:active {
+  background-color: var(--secondary-color);
+}
+
+.disabled-button {
+  background: gray;
+}
